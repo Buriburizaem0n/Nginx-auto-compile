@@ -24,14 +24,14 @@ This repository provides a single bash script, `build-nginx.sh`, to automate the
 1. **Clone this repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/Buriburizaem0n/Nginx-auto-compile.git
+   cd Nginx-auto-compile
    ```
 
 2. **Make the script executable**
 
    ```bash
-   chmod +x build-nginx.sh
+   chmod +x nginx-install.sh
    ```
 
 3. **Customize variables (optional)**
@@ -40,12 +40,12 @@ This repository provides a single bash script, `build-nginx.sh`, to automate the
    * `WORKDIR`: Temporary build directory (default: `$HOME/nginx-build`)
    * `PREFIX`: Installation prefix (default: `/etc/nginx`)
 
-   Edit these at the top of `build-nginx.sh` if needed.
+   Edit these at the top of `nginx-install.sh` if needed.
 
 4. **Run the script**
 
    ```bash
-   ./build-nginx.sh
+   ./nginx-install.sh
    ```
 
    * The script installs dependencies, builds Nginx, sets up a systemd service, and symlinks the `nginx` command.
