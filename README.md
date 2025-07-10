@@ -1,6 +1,6 @@
 # Project: Custom Nginx Build with HTTP-FLV, QUIC-enabled OpenSSL, and Systemd Service
 
-中文版见
+[中文版](https://github.com/Buriburizaem0n/Nginx-auto-compile/blob/main/README_cn.md)
 ## Overview
 
 This repository provides a single bash script, `build-nginx.sh`, to automate the process of:
